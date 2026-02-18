@@ -4,6 +4,7 @@ import InfoAndCourses from "@/components/Sections/About";
 import { Info } from "lucide-react";
 import Image from "next/image";
 import AboutSection from "@/components/Sections/About";
+import WACStatusSection from "@/components/Sections/WacStatusSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <CoursesSection />
       <AboutSection />
+      <WACStatusSection />
     </div>
   );
 }
