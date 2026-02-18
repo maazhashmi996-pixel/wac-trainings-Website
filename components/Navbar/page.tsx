@@ -19,15 +19,15 @@ const Navbar: React.FC = () => {
                     </div>
                     <div className="flex flex-col text-sm text-gray-500 font-medium">
                         <span>Mon - Sat: 09:00 - 20:00</span>
-                        <span className="hover:text-red-700 cursor-pointer">info@nicon.edu.pk</span>
+                        <span className="hover:text-red-700 cursor-pointer">info@wac.edu.pk</span>
                     </div>
                 </div>
 
                 {/* Center: Main Logo */}
                 <div className="order-1 md:order-2">
                     <img
-                        src="https://www.nicon.edu.pk/images/logo.png"
-                        alt="NICON Logo"
+                        src="/Wac.png"
+                        alt="Wac Logo"
                         className="h-20 md:h-24 w-auto object-contain"
                     />
                 </div>
@@ -35,8 +35,8 @@ const Navbar: React.FC = () => {
                 {/* Right Side: Phone & WhatsApp */}
                 <div className="flex items-center gap-4 order-3">
                     <div className="text-right hidden md:block">
-                        <p className="text-gray-500 font-bold text-sm">(051) 485-2741</p>
-                        <p className="text-gray-500 font-bold text-sm">(0346) 655-5678</p>
+                        <p className="text-gray-500 font-bold text-sm">+92 309 4158560</p>
+                        <p className="text-gray-500 font-bold text-sm"></p>
                     </div>
                     <div className="text-[#7a1212] border-2 border-[#7a1212] p-2 rounded-full hover:bg-[#7a1212] hover:text-white transition-colors cursor-pointer">
                         <Phone size={24} className="rotate-90" />
